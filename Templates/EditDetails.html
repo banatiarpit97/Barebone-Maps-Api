@@ -1,0 +1,53 @@
+<div>
+    <link rel="stylesheet" href="css/EditDetails.css">
+
+<md-dialog class = "dialog_box">
+    <form ng-cloak>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h1>Enter Your Details</h1>
+                <span flex></span>
+                <md-button class="md-icon-button" ng-click="cancel()">
+                    <i class="fa fa-times fa-lg"></i>
+                </md-button>
+            </div>
+        </md-toolbar>
+
+        <md-dialog-content>
+            <div class="md-dialog-content">
+                <form>
+                    <md-content layout-padding>
+                    <md-input-container class="md-block name">
+                        <label>Company/Place name</label>
+                        <input ng-model="user.address">
+                    </md-input-container>
+
+                    <md-input-container class="md-block latitude">
+                        <label>Your Address Latitude</label>
+                        <input ng-model="user.address">
+                    </md-input-container>
+
+                    <md-input-container class="md-block longitude">
+                        <label>Your Address Latitude</label>
+                        <input ng-model="user.address">
+                    </md-input-container>
+                    </md-content>
+
+
+                </form>
+            </div>
+            <div class="condition"><i class="fa fa-exclamation-triangle"></i> After Confirming the Changes, Edit button will be hidden from the header.
+            If you want to edit again, then download the files again </div>
+        </md-dialog-content>
+
+        <md-dialog-actions layout="row">
+            <md-button ng-click="answer('not useful')">
+                Cancel
+            </md-button>
+            <md-button  md-no-ink class="md-primary" ng-click="answer('useful')">
+                Confirm Changes
+            </md-button>
+        </md-dialog-actions>
+    </form>
+</md-dialog>
+</div>

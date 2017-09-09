@@ -1,0 +1,74 @@
+.heading{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+
+    background: linear-gradient(white, #02D1F9);
+}
+
+.input_row{
+    margin-left: 3%;
+}
+#input_box{
+    width: 300px !important;
+}
+.get_directions_section{
+    margin-top: -1%;
+}
+md-content{
+    background-color: white;
+    float: left;
+}
+.both_addresses{
+    float: right;
+    font-size: 1.1em;
+    margin-top: 2.2%;
+}
+.our_address1, .your_address1{
+    font-weight: bold;
+}
+.our_address{
+    margin-bottom: 1%;
+}
+#mainMap{
+    height: 70%;
+}
+#result{
+    font-size: 2em;
+    margin-bottom: 1%;
+    text-align: center;
+    clear: both;
+}
+.getCurrentLocation{
+    clear: both;
+    position: absolute;
+    top: 19%;
+    left:11%;
+    width:180px;
+    cursor: pointer;
+}
+.getCurrentLocationIcon{
+    float: left;
+    margin-right: 4%;
+    margin-top: 1%;
+}
+.getCurrentLocationText{
+    float: left;
+    color: darkblue;
+}
+.edit_div{
+    text-align: right;
+    color: black;
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    font-size: 1.2em;
+    width: 180px;
+    cursor: pointer;
+}
+.enter_details_text{
+    margin-right: 7%;
+}

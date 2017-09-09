@@ -1,0 +1,21 @@
+.dialog_box{
+    width: 500px;
+    max-width: 100%;
+}
+.name, .latitude, .longitude{
+    width: 300px !important;
+}
+.name, .latitude, .longitude{
+    margin: 0;
+}
+.name{
+    margin-top: 7%;
+}
+.md-dialog-content{
+    padding: 0 18% !important;
+}
+.condition{
+    clear: both;
+    padding: 0 8% 2% 8%;
+    color: #FF471C;
+}
